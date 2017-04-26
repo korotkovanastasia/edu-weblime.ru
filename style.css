@@ -11,7 +11,7 @@
 
 .main-header {
   background: rgb(25, 25, 25);
-  padding: 140px 0;
+  padding: 50px 0 140px 0;
 }
 
 .main-section {
@@ -62,4 +62,10 @@ margin: 0 28px;
     overflow: hidden;
     transform: skewY(-3.6deg);
     background: #888888;
+}
+
+.slider__item {
+    transform: skewY(3.6deg);
+    top: -60px;
+    position: relative;
 }
