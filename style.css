@@ -69,3 +69,34 @@ margin: 0 28px;
     top: -60px;
     position: relative;
 }
+
+.intro {
+  top: -40px;
+  position: relative;
+  background: url('../../img/8652882.jpg') 0 0 repeat #191919;
+  color: #fff;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  transform: skewY(3.3deg);
+  z-index: 1;
+}
+
+.intro__background {
+  background: rgba(25, 25, 25, 0.9);
+  width: 100%;
+  height: 100%;
+}
+
+.intro__content {
+  transform: skewY(-3.3deg);
+  margin: 0 -15px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 159px;
+}
+
+.intro__block {
+width: 50%;
+padding: 0 15px;
+}
