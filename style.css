@@ -221,11 +221,15 @@ padding: 0 15px;
   box-shadow: 3px 0 10px #191919;
 }
 
+.artists__slider-item--x5:hover .artists__info {
+  opacity: 1;
+}
+
 .artists__slider-item--x1 {
   width: 100%;
 }
 
-.artists__slider-info {
+.artists__info {
   font-family: 'Great Vibes', cursive;
   font-size: 26px;
   font-weight: 400;
